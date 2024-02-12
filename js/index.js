@@ -70,4 +70,6 @@ feedbackForm.addEventListener("submit", (event) => {
     }).catch((error) => {
         document.querySelector("#formError").textContent = "Your feedback could not be added yet. Please come back later.";
     });
+
+    location.reload()
 })

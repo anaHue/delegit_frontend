@@ -11,4 +11,4 @@ consuimg classes) or pressing matters (like schedule conflicts).
 
 The delegit frontend display the list of the feedbacks and a form to add a feedback.
 
-You can also find the backend [here](https://github.com/TheoTechnicguy/delegit)
+You can also find the backend [here](https://github.com/TheoTechnicguy/delegit "Delegit backend repository")

@@ -5,7 +5,7 @@
         <link type="icon/png" rel="icon" href="images/SINF.png">
         <link type="text/css" rel="stylesheet" href="styles/style.css">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width"/>
+        <meta name="viewport" content="width=device-width">
     </head>
     <body>
         <h1><img id="logo" alt="logo SINF" src="images/SINF.png"> Délegu'it</h1>
@@ -21,15 +21,18 @@
                 <label for="course">Course ID</label>
                 <input type="text" id="course" name="course">
                 <label for="feedback">Your Feedback</label>
-                <input type="text" id="feedback" name="feedback">
+                <textarea id="feedback" name="feedback" cols="110" rows="20"></textarea>
+                <br>
+                <br>
                 <b id="formError"></b>
-                <br><br><br>
+                <br>
+                <br>
                 <input type="submit" name="Submit" value="Submit">
                 <button id="closeDialog">Close</button>
             </form>           
         </dialog>
         <div id="feedbacksContainer">
-            <img id="spinner" src="images/loading.gif" alt="loading feedbacks"/>
+            <img id="spinner" src="images/loading.gif" alt="loading feedbacks">
         </div>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="js/index.js"></script>
